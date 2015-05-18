@@ -161,7 +161,7 @@ ng-annotate understands IIFE's and attempts to match through them, so
 
 
 ## Reference-following
-ng-annotate follows references. This works iff the referenced declaration is
+ng-annotate follows references. This works if the referenced declaration is
 a) a function declaration or
 b) a variable declaration with an initializer.
 Modifications to a reference outside of its declaration site are ignored by ng-annotate.
